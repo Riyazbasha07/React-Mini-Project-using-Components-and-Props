@@ -31,17 +31,20 @@ body {
   background: #cc0000;
   color: white;
   padding: 15px;
+  position: relative;
 }
 
 .card-header h1 {
   margin: 0;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .card-header p {
   margin: 5px 0 0;
   font-size: 0.9rem;
   font-style: italic;
+  text-align: center;
 }
 
 /* Body */
@@ -84,4 +87,29 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 20px;
+}
+
+/* Buttons */
+.card-header button {
+  position: absolute;
+  top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* Dislike button (left side) */
+.card-header .dislike-btn {
+  left: 10px;
+  background: #e63946;
+  color: white;
+}
+
+/* Like button (right side) */
+.card-header .like-btn {
+  right: 10px;
+  background: #2a9d8f;
+  color: white;
 }
